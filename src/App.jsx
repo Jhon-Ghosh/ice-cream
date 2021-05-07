@@ -1,8 +1,17 @@
+import React from "react";
+import "./App.css";
+import Body from "./Component/FunctionalComponent/Body/Body";
+import Footer from "./Component/FunctionalComponent/Footer/Footer";
+import Header from "./Component/FunctionalComponent/Header/Header";
+import Layout from "./Component/FunctionalComponent/Layout/Layout";
+
 function App() {
   return (
-    <div className="App">
-      Hello world
-    </div>
+    <Layout>
+      <Header />
+      <Body />
+      <Footer />
+    </Layout>
   );
 }
 
